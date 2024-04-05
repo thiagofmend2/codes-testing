@@ -1,0 +1,8 @@
+Var1 = 98
+
+if Var1 > 40:
+  print('Sim')
+else:
+  print('Não')
+
+#Código simples para saber se o número da minha variável é maior que o número indicado no if
