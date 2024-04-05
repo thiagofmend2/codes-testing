@@ -1,0 +1,6 @@
+lista = ['Thiago', 'Rodolfo', 'Paulo', 'Fabricio', 'Alex']
+
+if 'Rodolfo' in lista:
+  print('Conheço essa pessoa')
+else:
+  print('Não conheço essa pessoa')
