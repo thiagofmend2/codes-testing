@@ -1,0 +1,12 @@
+codigo = int(input('digite o código do funcionário:'))
+nome = input('Digite o nome do funcionário:')
+salario = float(input('Informe o salário:'))
+ativo = True
+
+print('codigo: %d '% codigo)
+print('nome: %s '% nome)
+print('salario: %.2f '% salario)
+print('ativo: %r '% ativo)
+
+#O formato INPUT só serve para strings, quando não for uma string,
+#é preciso converter colocando po exemplo: int(input( ou float(input
