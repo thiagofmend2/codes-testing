@@ -1,0 +1,5 @@
+import random
+
+print(random.randint(0,100))
+
+#Código para gerar números aleatórios, nesse caso de 0 a 100
