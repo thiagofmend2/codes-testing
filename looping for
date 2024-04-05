@@ -17,3 +17,11 @@ for n in range(15, 0, -1):
   print(n)
 
   #Esse laço conta de forma decrescente, acredito que sempre tem que deixar o -1 ali, se não dá erro
+
+
+#and
+
+cardapio = ['file', 'peixe', 'frango', 'ovo', 'batata', 'camarão', 'porco', 'sopa']
+
+for cardapio in cardapio:
+  print(cardapio)
