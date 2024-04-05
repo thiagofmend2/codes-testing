@@ -1,0 +1,10 @@
+#looping while
+
+contador = 0
+
+# Executando o loop enquanto o contador for menor que 5
+while contador < 10:
+    print("O contador é:", contador)
+    contador += 1  # Incrementando o contador a cada iteração
+
+print("Loop encerrado")
