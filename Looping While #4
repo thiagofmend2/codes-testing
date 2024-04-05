@@ -1,0 +1,9 @@
+cardapio = ['file', 'peixe', 'frango', 'ovo', 'batata', 'camarão', 'porco', 'sopa']
+
+item = cardapio.pop(0)
+
+while item != 'sopa':
+  print('Esse item não é batata, continue procurando')
+  item = cardapio.pop(0)
+
+#Código para encontrar um item especifico em uma lista
