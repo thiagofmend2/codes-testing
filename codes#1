@@ -1,0 +1,6 @@
+#Programa para receber e mostrar seu nome
+
+nome = input("Qual seu nome?")
+sobrenome = input("Qual seu sobrenome?")
+
+print("Olá {} {}" .format(nome, sobrenome))
