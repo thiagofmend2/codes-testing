@@ -1,0 +1,19 @@
+for n in range(11):
+  print(n)
+
+
+#or
+
+
+for n in range(3, 25):
+  print(n)
+
+  #Nesse caso o laço de repetição começa em 3 e termina em 24
+
+
+#and
+
+for n in range(15, 0, -1):
+  print(n)
+
+  #Esse laço conta de forma decrescente, acredito que sempre tem que deixar o -1 ali, se não dá erro
