@@ -1,0 +1,16 @@
+# Definindo uma variável de controle
+contador = 0
+
+# Executando o loop enquanto o contador for menor que 10
+while contador < 10:
+    contador += 1
+    if contador == 5:
+        print("Vamos pular o número 5")
+        continue  # Pula para a próxima iteração do loop
+    print("O contador é:", contador)
+
+    if contador == 8:
+        print("Terminando o loop")
+        break  # Encerra o loop imediatamente
+
+print("Loop encerrado")
