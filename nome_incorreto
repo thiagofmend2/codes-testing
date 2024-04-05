@@ -1,0 +1,8 @@
+nome = 'Gustavo'
+
+if nome == 'Thiago': #Sempre tem que ter os dois pontos
+  print('Está correto') #o espaço é a INDENTAÇÃO que diz que toda essa condição pertence ao IF
+else:
+  print('Não está correto')
+
+#Nome dentro da variável precisa ser igual o que estou perguntando no if, para ser correto, caso não seja o mesmo nome, será incorreto
