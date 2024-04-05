@@ -1,0 +1,9 @@
+from random import randint
+
+cartas = 0
+
+while cartas <21:
+  cartas += randint(1,10)
+  print('Você tem' + str(cartas) + "pontos")
+
+#Código para fazer um joguinho chamado 21, ele te dá números aleatórios e o looping só acaba quando atingir 21 ou mais pontos
