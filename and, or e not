@@ -1,0 +1,25 @@
+#Programa para testar and, or e not
+
+A = 5
+B = 15
+C = 20
+
+print("A == B AND B > C :", A == B and B > C) #False porque tem um verdadeiro e um falso, AND se tiver falso em qualquer um é FALSE
+print("A < C or C < A:", A < C or C < A) #TRUE porque tem um verdadeiro, OR somente FALSE  se forem dois falsos
+print('C > B:', C > B)
+print("not A == B:", not A == B) #NOT é ao contrário do que realmente é, como isso é uma afirmação falsa, vira TRUE
+print('not A < B', not A < B) #NOT é ao contrário do que realmente é, como isso é uma afirmação verdadeira, vira FALSE
+
+#Testando:
+1 = 1 #True (igual a)
+1 = 2 #False
+1 != 1 #false (diferente de)
+1 != 2 # Verdadeiro
+1 > 1 #Falso (maior que)
+1 > 2 #false
+1 < 1 #false (menor que)
+1 < 2 #true
+1 >= 1 #true (maior ou igual a)
+1 >= 2 #false
+1 <= 1 #true (menor ou igual a)
+1 <= 2 #true
