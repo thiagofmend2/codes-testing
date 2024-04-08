@@ -1,0 +1,25 @@
+#Programa para gerar números aleatórios em uma lista e somar os números pares dela
+
+from random import randint #esse import é para gerar números aleatórios
+from time import sleep #esse import eu não entendi para que serve
+
+def sorteia(lista):
+  print('Sorteando 5 valores da lista: ', end='') #esse end não sei muito bem pra que serve ainda
+  for cont in range(0, 5):
+    n = randint(1, 10)
+    lista.append(n) #esse append tem que aprender mais sobre
+    print(f'{n} ', end='', flush=True)
+  print('Pronto!')
+
+
+def somaPar(lista):
+  soma = 0
+  for valor in lista:
+    if valor % 2 == 0:
+      soma += valor
+  print(f'Somando os valores pares de {lista}, temos {soma}')
+
+
+números = list()
+sorteia(números)
+somaPar(números)
