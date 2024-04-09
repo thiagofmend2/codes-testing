@@ -1,0 +1,3 @@
+lista1 = ["Thiago", "Rodolfo", "Alex", "Vini", "Otávio"]
+print(lista1) #Mostra os nomes dentro da lista
+print(len(lista1)) #Mostra a quantidade de itens dentro da lista
