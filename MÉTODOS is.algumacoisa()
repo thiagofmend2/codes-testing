@@ -1,0 +1,7 @@
+palavra = input('Digite uma palavra: ')
+print('A palavra {} é que tipo de dado?'.format(palavra), type(palavra))
+print('A palavra {} é numérico?'.format(palavra), palavra.isnumeric())
+print('A palavra {} é alfabético?'.format(palavra), palavra.isalpha())
+print('A palavra {} é alfanumérico?'.format(palavra), palavra.isalnum())
+
+#Tem um monte de opções pra verificar com esses MÉTODOS: palavra.isalgumacoisa()
