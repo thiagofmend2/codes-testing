@@ -1,0 +1,7 @@
+s = ['Banco', 'de', 'Dados']
+
+print(s[0])
+print(s[1])
+print(s[2])
+
+#Ele retorna a posição do número referente ao nome que está dentro da lista S
