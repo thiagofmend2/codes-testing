@@ -1,0 +1,17 @@
+#Dicionários
+
+Dicionario_vazio = {}
+Dici_cheio = {'um': 1, 'dois': 2, 'três': 3}
+print(Dici_cheio)
+
+#O dicionario precisa colocar a chave e um valor associado
+
+dicionario = {'nome': 'Thiago', 'número': 2, 'Booleano': True}
+print(dicionario)
+# para localizar uma chave:
+print(dicionario['nome'])
+
+# Os conjuntos são iguais, só não precisam colocar os valores associados:
+
+conjuntos = {'Thiago', 2, True)
+print(conjuntos)
