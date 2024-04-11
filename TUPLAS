@@ -1,0 +1,20 @@
+#Tuplas são imutáveis
+#Um objeto mutável é um objeto cujo estado pode ser modificado após sua criação. 
+#Imutáveis são os objetos cujo o estado não podem ser mudados uma vez criados.
+
+Tuplas1 = (1,2,3,4,5)
+Tuplas2 = (6,7,8)
+
+Tuplas1 [0] #0 signficia o 1º item
+Tuplas1 + Tuplas2 #Junta as tuplas
+
+len(Tuplas1)         # conta os caracteres da tupla
+Tuplas2 + (4, 5, 6)  # adiciona esses itens na tupla selecionada
+Tuplas1[:2]          # mostra os 2 itens da tupla
+2 in Tuplas1         # mostra true or false se o item tiver na tupla
+
+#despacotando tuplas
+a, b, c = (1, 2, 3)
+print(a, b, c)
+d, e, f = 4, 5, 6
+print(d, e, f)
