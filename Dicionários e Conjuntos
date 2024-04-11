@@ -6,10 +6,29 @@ print(Dici_cheio)
 
 #O dicionario precisa colocar a chave e um valor associado
 
+#Chaves são VALUES e valores são KEYS
 dicionario = {'nome': 'Thiago', 'número': 2, 'Booleano': True}
 print(dicionario)
+#para adicionar um novo item no dicionario:
+dicionario['sexo'] = 'M' #Não guardou, mas segui igual no vídeo
 # para localizar uma chave:
 print(dicionario['nome'])
+
+#Criando um dicionario de outro modo
+
+filme = {'Titulo': 'Star wars',
+         'Ano': 1977,
+         'Diretor':'George Lucas'
+        }
+
+print(filme)
+print(filme.values()) #Ele mostra as informações de valores
+print(filme.keys()) #Ele mostra os titulos
+
+print('-'*60)
+
+for v,k in filme.items(): #o V e o K signfiica VALUES E KEYS
+  print(f'O {v} é {k}')
 
 # Os conjuntos são iguais, só não precisam colocar os valores associados:
 
