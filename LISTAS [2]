@@ -1,0 +1,28 @@
+#LISTAS
+
+lista = ['Thiago', 2]
+
+print(type(lista)) #saber o tipo de lista
+
+list(range(10)) #Criar uma lista através do FOR
+
+#frutas = ['Maça', 'Banana', 'Jaca', 'Melão', 'Abacaxi']
+print(frutas[4])
+print(frutas[-3]) #indexação negativa, ele conta de trás pra frente o item desejado
+
+#lista dentro de lista
+lista = ['item1', ['python', 'Academy'], 'item3']
+print(lista)
+print(lista[1][1]) #procurar os itens da lista e da sublista
+
+#Fatiamento de listas
+lista = [10, 20, 30, 40, 50, 60]
+
+print(lista[2:5]) #ele pegou a partir do 3º item até o 5º
+print(lista[1:6]) #ele pegou a partir do 2º item até o 6º
+
+#Percorrendo listas com loop
+lista = [10, 20, 30, 40, 50, 60]
+
+for num in lista:
+    print(num) #Mostra a lista na diagonal
