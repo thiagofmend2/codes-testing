@@ -1,0 +1,6 @@
+nome = ('Thiago')
+print(f'O nome dele é {nome}')
+print(f'O nome {nome} tem {len(nome)} caracteres')
+
+# O f serve para completar a informação entre as chaves {}
+# o Len serve para contar quantos caracteres tem na variável
