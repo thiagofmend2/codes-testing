@@ -26,3 +26,11 @@ lista = [10, 20, 30, 40, 50, 60]
 
 for num in lista:
     print(num) #Mostra a lista na diagonal
+
+
+#É possível converter uma lista em uma tupla e vice-versa.
+
+lista = [1, 2, 3]
+tupla_convertida = tuple(lista)
+lista_convertida = list(tupla_convertida)
+print(lista)
