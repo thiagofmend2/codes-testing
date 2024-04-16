@@ -1,0 +1,16 @@
+def celsius_para_fahrenheit(celsius):
+    return (celsius * 9/5) + 32 #conta exata para a conversão
+
+def fahrenheit_para_celsius(fahrenheit):
+    return (fahrenheit - 32) * 5/9
+
+# Exemplo de uso
+temperatura_em_celsius = 50
+temperatura_em_fahrenheit = celsius_para_fahrenheit(temperatura_em_celsius)
+print(f"{temperatura_em_celsius} graus Celsius são {temperatura_em_fahrenheit} graus Fahrenheit.")
+
+temperatura_em_fahrenheit = 35
+temperatura_em_celsius = fahrenheit_para_celsius(temperatura_em_fahrenheit)
+print(f"{temperatura_em_fahrenheit} graus Fahrenheit são {temperatura_em_celsius} graus Celsius.")
+
+#As funções vem primeiro, e depois vem as situações em que podemos modificar os números
