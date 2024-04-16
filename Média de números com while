@@ -1,0 +1,30 @@
+#programa usando looping while para dectectar a média de números até ele acabar o programa (colocando 0)
+
+soma = 0
+contador = 0
+
+while True:
+    entrada = input("Digite um número positivo (ou digite 0 para sair): ")
+    
+    # Verifica se a entrada é um número
+    if not entrada.isdigit():
+        print("Por favor, digite apenas números positivos ou 0 para sair.")
+        continue
+    
+    numero = int(entrada)
+    
+    # Verifica se o número é positivo
+    if numero > 0:
+        soma += numero
+        contador += 1
+    elif numero == 0:
+        break
+    else:
+        print("O número digitado é negativo. Digite 0 para sair.")
+        
+
+if contador == 0:
+    print("Nenhum número positivo foi inserido.")
+else:
+    media = soma / contador
+    print(f"A média dos números positivos inseridos é: {media}")
