@@ -1,6 +1,6 @@
 num = int(input('Digite um número:'))
-counter = 0
-tab = 10
+counter = 0 #inicio da contagem
+tab = 10 #final da contagem
 while counter <= tab:
     res = num * counter #estando fora do loop a conta não funciona
     print('{} * {} = {}'.format(num, counter, res))
