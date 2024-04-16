@@ -1,0 +1,9 @@
+print('\nFaça um algoritmo que leia o preço de um produto e mostre o seu novo preço com 5% de desconto')
+
+produto = float(input('Digite o valor do produto: ')) #chamar um número usando float e input
+desc = produto - (produto * 0.05) #variável pra ver o desconto aplicado
+vdesc = produto * 0.05 #variavel para ver o valor descontado
+
+
+print('O valor do produto com desconto de 5% é de: R${:.2f}'.format(desc)) #o :.2f serve para colocar duas casas decimais após o número
+print('O preço abatido do produto foi de: R${:.2f}'.format(vdesc))
