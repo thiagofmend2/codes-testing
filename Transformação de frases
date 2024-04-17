@@ -1,0 +1,12 @@
+#Transformações
+
+frase = '   Omg, eu fiz tudo de novo, Omg Omg  ' #possui espaços inuteis no começo e no final
+print('essa frase possui {} caracteres' .format(len(frase)))
+print(frase.replace('fiz', 'realizei')) #replace é substituir, eu pedi pra trocar a palavra FIZ pela palavra REALIZEI
+print(frase.upper()) #Ele transforma tudo em letra maisucula
+print(frase.lower()) #Ele deixa tudo minusculo
+print(frase.capitalize()) #Ele vai deixar apenas a primeira letra da frase em maiusculo
+print(frase.title()) #Esse deixa em maiusculo toda a primeira letra de cada palavra
+print(frase.strip()) #Ele vai remover todos os espaços que a frase pode ter no começo ou no final se forem espaços inuteis
+print(frase.rstrip()) #R de right, ele vai remover os espaços apenas do lado direito
+print(frase.lstrip()) #L de left, ele vai remover os espaços do lado esquerdo
