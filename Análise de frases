@@ -1,0 +1,12 @@
+#Análises
+
+frase = "E é assim, assim é, e repete tantas vezes, EEEEE"
+
+print(len(frase))
+print(frase.count('e')) #Ele vai contar quantas letras "e" minusculas tem na frase
+print(frase.count('E')) #Quantas letras "E" maiusculas tem
+print(frase.count('a',0,35)) #Ele vai contas quantas letras 'a' tem entre os caracteres 0 e 34
+print('O número de letras e que constam na frase são {}' .format(frase.count('e')))
+print(frase.find('assim')) #Ele vai localizaf onde tem essa palavra e retornar qual a posição que ela começa, nesse caso, começa na posição 4
+print(frase.find('rebelde')) #qiando procura uma palavra que não tem na frase, ele retorna -1
+'repete' in frase #ele retorna true or false caso a palavra esteja dentro da frase
