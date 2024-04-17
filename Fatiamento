@@ -1,0 +1,14 @@
+#Fatiamento
+
+frase = "Eu sou rebelde quando não sigo os demais"
+print(frase)
+print(len(frase)) #Usando o len pra saber quantos caracteres tem no total
+print(frase[10]) #Ele está pegando 0 10º indice da minha frase, nesse caso, a letra E (ele começa com o indice 0 e conta espaços também)
+print(frase[3:8]) #Ele vai pegar os indices que começam no 3 e vai até o 7 (sempre um antes do que está mostrando no print)
+print(frase[4:14]) #Ele começa no indice 4 e vai até o indice 13
+print(frase[0:41]) #pegando do 0 ao 40
+print(frase[0:41:2]) #o 2 no final significa que ele vai pular de 2 em 2 os caracteres
+print(frase[0:41:5]) #pulou de 5 em 5
+print(frase[:6]) #Aqui ele começa no 0 e vai até o caractere 5
+print(frase[15:]) #Aqui ele começa no 15 e vai até o final
+print(frase[5::2]) #Aqui ele vai começar no 5, vai até o final porque entre os :: não tem nada, então vai até o final, e vai pular 3 em 3 caracteres
