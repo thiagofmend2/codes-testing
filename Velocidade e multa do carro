@@ -1,0 +1,9 @@
+#Identificar a velocidade de um carro e definir uma multa
+
+velocidade = float(input('Qual a velocidade do seu carro? ')) #Solicitando a velocidade do carro
+if velocidade >80: #Se for maior que 80
+  print('Multado!')
+  multa = (velocidade-80) * 7 #A multa é o valor da velocidade menos ela mesma e dividido por 7(7 é o valor que ele paga a mais por cada kilometro ultrapassado)
+  print('Você deve pagar uma multa de R${:.2f}'.format(multa))
+else:
+  print('Mantenha essa velocidade')
