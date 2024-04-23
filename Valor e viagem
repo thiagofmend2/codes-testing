@@ -1,0 +1,7 @@
+distância = float(input('Qual a distância da sua viagem: '))
+print('Você fará uma viagem de {}kms'.format(distância))
+if distância <= 200: #Menor ou igual a 200 quilometros
+  preço = distância * 0.50 #o preço da viagem para o valor abaixo de 100 é 100*0,50 (ou quaçquer valor que você queira colocar)
+else:
+  preço = distância * 0.45 #esse valor é caso a quiloemtragem seja maior que 100
+print('Por essa quilometragem, o valor da viagem será {:.2f}'.format(preço))
