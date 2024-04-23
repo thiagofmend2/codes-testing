@@ -1,0 +1,16 @@
+#joguinho de adivinhação de números
+
+from random import randint #Importa apenas a funçao randint do módulo random
+from time import sleep #Importa apenas a função sleep do módulo time
+
+computador = randint(0, 5) #Ele vai sortear números de 0 a 5
+print('Vou pensar em um número, tente adivinhar...')
+
+jogador = int(input("Em que número eu pensei?")) #Solicitando o programa para pedir um número
+print('Processando...')
+sleep(3) #o sleep faz o print anterior demorar alguns segundos para aparecer o resultado
+
+if jogador == computador: #Se o número solicitado for igual o do computador
+  print('Você conseguiu!')
+else:
+  print('Você perdeu!') #Se o número solicitado for diferente do computador
