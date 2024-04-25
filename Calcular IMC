@@ -1,0 +1,17 @@
+#Calcular IMC
+
+Peso = float(input('Peso: '))
+Altura = float(input('Altura: '))
+IMC = Peso / (Altura ** 2)
+print('Seu IMC é de {:.2f}'.format(IMC))
+
+if IMC < 18.5:
+  print('Abaixo do peso, vai comer!')
+elif IMC >= 18.5 and IMC <= 25:
+  print('Peso ideal, fique assim!')
+elif IMC >= 25 and IMC <=30:
+  print('Sobrepeso, vai malhar')
+elif IMC >= 30 and IMC <=40:
+  print('Obesidade, levanta roliço!')
+else:
+  print('Obesidade Mórbida, vai de arrasta pra cima hein!')
