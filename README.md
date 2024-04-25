@@ -1,2 +1,5 @@
-# codes-testing
-Utilizando esse repositório para armazenar os códigos que estou aprendendo
+# Testando Códigos
+
+Olá Mundo!
+
+Aqui você encontra exercícios que estou aprendendo, no momento são exercícios básicos, em breve teremos grandes projetos por aqui :D
