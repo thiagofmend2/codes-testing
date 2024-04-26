@@ -1,0 +1,51 @@
+from random import randint
+from time import sleep
+
+lista = ['Pedra', 'Papel', 'Tesoura'] #Criar lista de itens para escolher
+pc = randint(0, 2) #0 a 2 vai de acordo com o numero de itens da lista
+print('''Suas opções 
+[1] Pedra
+[2] Papel
+[3] Tesoura''') #3 aspas no começo e no final deixam formatado assim, em linhas separadas
+jogador = int(input('Qual a sua jogada: ')) #solicita o jogador a escolher o número
+print('JO')
+sleep(1)
+print('KEN')
+sleep(1)
+print('PO !!!')
+print('-=' * 13)
+print('O computador jogou: {}'.format(lista[pc])) #lista é os itens e pc é as opções aleatórias do randint
+print('O jogador jogou: {}'.format(lista[jogador])) #itens da lista e o que o jogador escolheu
+print('-=' * 13)
+
+if pc == 0: #PEDRA
+  if jogador == 0:
+    print('EMPATE')
+  elif jogador == 1:
+    print('GANHOU')
+  elif jogador == 2:
+    print('PERDEU')
+  else:
+    print('Jogada Inválida')
+
+elif pc == 1: #papel
+  if jogador == 0:
+    print('PERDEU')
+  elif jogador == 1:
+    print('EMPATE')
+  elif jogador == 2:
+    print('GANHOU')
+  else:
+    print('Jogada Inválida')
+
+elif pc == 2: #TESOURA
+  if jogador == 0:
+    print('GANHOU')
+  elif jogador == 1:
+    print('PERDEU')
+  elif jogador == 2:
+    print('EMPATE')
+  else:
+    print('Jogada Inválida')
+else:
+  print('Jogada Inválida')
