@@ -1,0 +1,8 @@
+soma = 0 #necessário usar isso para somar os números de um laço de repetição
+cont = 0 #usar para contar itens de um laço de repetição
+for c in range(1, 7):
+  num = int(input('Digite o {} valor: '.format(c)))
+  soma += num #isso aqui vai fazer ele somar os numeros solicitados 
+  cont += 1
+  
+print('A soma dos números é de {}'.format(soma))
