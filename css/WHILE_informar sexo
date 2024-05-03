@@ -1,0 +1,5 @@
+sexo = str(input('Digite seu sexo: [M] ou [F]: ')).strip().upper()[0] #Fatiamento 0 para pegar apenas a primeira letra do que for escrito
+while sexo not in "MmF": # not in junto com "informações aqui dentro" para que o programa rejeite qualquer coisa que esteja fora das aspas
+  sexo = (str(input('Dados inválidos, digite seu sexo: '))).strip().upper()[0]
+
+print('Sexo {} cadastrado com sucesso'.format(sexo))
